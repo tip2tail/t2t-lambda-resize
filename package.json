@@ -1,0 +1,35 @@
+{
+  "name": "t2tLambdaResize",
+  "description": "AWS Lambda function to automatically create thumbnail & resized images on S3 when a photo is uploaded",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "zip": "./node_modules/.bin/gulp zip"
+  },
+  "author": {
+    "name": "Mark Young - tip2tail Ltd",
+    "email": "mark@tip2tail.scot",
+    "url": "https://www.tip2tail.scot/"
+  },
+  "repository" :
+  {
+	"type" : "git",
+	"url" : "https://github.com/tip2tail/t2tLambdaResize/t2tLambdaResize.git"
+  },
+  "homepage": "https://github.com/tip2tail/t2tLambdaResize",
+  "bugs": {
+    "email": "mark@tip2tail.scot",
+    "url": "https://github.com/tip2tail/t2tLambdaResize/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gm": "^1.18.1",
+    "q": "^1.4.1",
+    "stringify-object": "^3.2.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1.44",
+    "gulp": "^3.9.1",
+    "gulp-zip": "^3.0.2"
+  }
+}
