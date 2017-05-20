@@ -25,6 +25,6 @@ gulp.task('zip', function() {
 			['./**', '!README.md', '!LICENSE', '!.gitignore', '!gulpfile.js', '!./{dist,dist/**}', '!./{test,test/**}'].concat(ignore),
 			{base: '.', nodir: true, dot: true}
 		)
-		.pipe(zip(pkg.name + '.zip'))
+		.pipe(zip('t2t-lambda-resize.zip'))
 		.pipe(gulp.dest('dist'));
 });
